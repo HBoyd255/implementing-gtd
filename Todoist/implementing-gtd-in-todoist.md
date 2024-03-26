@@ -58,7 +58,14 @@ are a few exceptions, such as:
   not currently active, but I want to revisit in the future.
 
 - The `Lists` project and its subprojects. This is to store lists, such as
-  recipes or books I would like to read.
+  recipes or books I would like to read. Items in lists should not be actionable
+  tasks, and thus, should not be completable, this can be achieved by adding an
+  asterisk to the start of the task's title.
+
+- The `Things to Buy` List, is a list of things I need to buy. The things on the
+  list may not need to be purchased immediately, especially when budgeting is
+  factored in. As part of the weekly review, I will review this list, and
+  consider adding items to the `Single Actions` project, as an `Errand` task.
 
 - The `Single Actions` project, which is a project for tasks that are
   self-contained and only require one step.
@@ -66,11 +73,6 @@ are a few exceptions, such as:
 - The `GTD Weekly Review` project, which is a list of tasks that need to be
   completed during the weekly review. This kind of is a project, but I've chosen
   to separate it from the other projects, due to its importance to this system.
-
-- The `Things to Buy` List, is a list of things I need to buy. The things on the
-  list may not need to be purchased immediately, especially when budgeting is
-  factored in. As part of the weekly review, I will review this list, and
-  consider adding items to the `Single Actions` project, as an `Errand` task.
 
 ## Use of Labels
 
