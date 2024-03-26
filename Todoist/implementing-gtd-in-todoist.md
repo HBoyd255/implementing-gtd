@@ -87,9 +87,11 @@ given a context label. If it cannot be completed, aside from specific
   can access the system, I can access the internet. This is mostly for tasks
   that I could complete using those awkward amounts of time, such as waiting for
   a bus.
-- `Calls` - For tasks that require a phone call. Similar to the `Anywhere`
-  context, but has been separated out as it's not always possible to make a
-  phone call, for example, in busy places.
+- `Phone` - For tasks that require my phone. Similar to the `Anywhere` context,
+  but has been separated out as it's not always possible to make a phone call,
+  for example, in busy places. It's also the case that my phone is often
+  switched off, so I would rather not be reminded of these tasks when I can't
+  complete them.
 - `Waiting-For` - For tasks that are waiting for an external factor before they
   can be completed. This is not for tasks that are waiting for me to complete
   another task. Future tasks should simply be given no label.
@@ -97,7 +99,7 @@ given a context label. If it cannot be completed, aside from specific
   group errands together, and complete them all at once, to save time.
 
 I was considering adding a `9to5` context, for tasks that can only be completed
-during working hours. I found that this was only really applicable to calls, and
+during working hours. I found that this was only really applicable to calls and
 errands, which are already covered, so adding this label would just create more
 clutter.
 
