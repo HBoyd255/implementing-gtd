@@ -80,8 +80,8 @@ given a context label. If it cannot be completed, aside from specific
 - `Home` - For tasks that can only be completed at home.
 - `Computer` For tasks that can only be completed on a computer. Previously,
   this was split into `Computer` and `has_internet`, But I found that this just
-  created more clutter than was necessary. Plus, I'm trying to reduce my reliance
-  on my phone for non-communication-based tasks.
+  created more clutter than was necessary. Plus, I'm trying to reduce my
+  reliance on my phone for non-communication-based tasks.
 - `Anywhere` - For tasks that can be completed anywhere, most likely using my
   phone. This is based on the context that I'm using a cloud-based system, if I
   can access the system, I can access the internet. This is mostly for tasks
@@ -100,3 +100,27 @@ I was considering adding a `9to5` context, for tasks that can only be completed
 during working hours. I found that this was only really applicable to calls, and
 errands, which are already covered, so adding this label would just create more
 clutter.
+
+## Agendas
+
+I'm still on the fence about how to implement the `Agendas` section, There are
+two ways I could do this:
+
+### Agendas as Labels
+
+In the Guide, for method 2, it suggests creating a single label titled
+`Agendas`, This would then be used to store tasks that need to be discussed with
+others. This, however, does not do anything to separate the tasks by person. I
+could address this by creating a label for each person, for example,
+`Agendas_Will`, but this would clutter up the labels section.
+
+### Agendas as Projects
+
+Alternatively, I could store a project titled `Agendas`, and then create a
+subproject for each person I need to discuss tasks with. This would allow me to
+separate the tasks by person. The downside to this is that it pulls the task out
+of the main project. This could lead to tasks being forgotten about, but it
+shouldn't be an issue if the weekly review is done correctly.
+
+For now, I'm going to go store Agendas as labels, but if it becomes too
+cluttered, I will switch to projects.
