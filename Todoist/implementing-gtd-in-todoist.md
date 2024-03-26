@@ -67,6 +67,11 @@ are a few exceptions, such as:
   completed during the weekly review. This kind of is a project, but I've chosen
   to separate it from the other projects, due to its importance to this system.
 
+- The `Things to Buy` List, is a list of things I need to buy. The things on the
+  list may not need to be purchased immediately, especially when budgeting is
+  factored in. As part of the weekly review, I will review this list, and
+  consider adding items to the `Single Actions` project, as an `Errand` task.
+
 ## Use of Labels
 
 Labels are used to represent context and actionability.
