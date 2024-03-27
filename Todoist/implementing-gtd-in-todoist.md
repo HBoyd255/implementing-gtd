@@ -70,6 +70,19 @@ are a few exceptions, such as:
 - The `Single Actions` project, which is a project for tasks that are
   self-contained and only require one step.
 
+- The `Quick Reads` project. This is a list of articles or blog posts that will
+  typically take less than 10 minutes to read. To populate this list, I will, in
+  part, use the "Email tasks to this project" feature. This is separate from the
+  `Lists` project, as these are actionable tasks, but is secluded from other
+  lists, due to the informality of this list. The reason for this informality,
+  is because I'm prioritizing ease of access, by bypassing the inbox system. All
+  items in this list should be treated as having the `Anywhere` context. This
+  list should be reviewed during the weekly review, and tasks should be moved to
+  the `Single Actions` project, if they have been hanging around for too long.
+  This list is a prototype, and if it becomes too cluttered, I will scrap it and
+  go back to the traditional method of adding articles to the inbox, then
+  processing them.
+
 - The `GTD Weekly Review` project, which is a list of tasks that need to be
   completed during the weekly review. This kind of is a project, but I've chosen
   to separate it from the other projects, due to its importance to this system.
