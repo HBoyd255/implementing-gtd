@@ -57,7 +57,7 @@ Todoist projects are used to represent separate concepts, such as the following:
 - `Someday/Maybe` - A list of projects that are not currently active, but I want
   to revisit in the future.
 
-- `Lists` - A collection of lists, stored as sub-projects, such as recipes or
+- `Lists` - A collection of lists, stored as subprojects, such as recipes or
   books I would like to read. Items in lists should not be actionable tasks, and
   thus, should not be completable, this can be achieved by adding an asterisk to
   the start of the task's title.
@@ -80,17 +80,17 @@ Todoist projects are used to represent separate concepts, such as the following:
 
 - `Incubator` - A list of projects that are not currently active, but have been
   scheduled to be revisited at a later date. This is the same concept as the
-  tickler file. This is separate from the `Someday/Maybe` list as they have been
-  scheduled.
+  tickler file. This is separate from the `Someday/Maybe` list, as these tasks
+  have been scheduled for reevaluation.
 
 - `Waiting-For, External` - A list of tasks that I am waiting for someone else
-  to complete. Each task in this list should have a "Date Delegated" comment, so
+  to complete. Each task in this list should have a "Date Delegated" comment so
   that I can track how long I have been waiting for a task to be completed.
 
-- `Waiting-For, Internal` - A list of tasks thats that are almost actionable,
-  but are waiting for another task to be completed first. This list feels like a
-  hack, so I will reassess it during the weekly review, and consider
-  implementing it in a different way.
+- `Waiting-For, Internal` - A list of tasks that are almost actionable, but are
+  waiting for another task to be completed first. This list feels like a hack,
+  so I will reassess it during the weekly review, and consider implementing it
+  differently.
 
 ## Projects of interest
 
@@ -108,7 +108,8 @@ Todoist projects are used to represent separate concepts, such as the following:
 Labels are used to represent context and actionability.
 
 If a task is immediately actionable, and thus has a `next action`, it will be
-given a context label. If it cannot be completed it is simply not given a label.
+given a context label. If it cannot be completed, it is simply not given a
+label.
 
 ### Context Labels:
 
@@ -134,10 +135,14 @@ given a context label. If it cannot be completed it is simply not given a label.
 - `Errands` - For tasks that require me to leave the house, this allows me to
   group errands together, and complete them all at once, to save time.
 
+I am considering adding a `Brainstorm` context, for tasks that require a lot of
+thought, but not much action. However, I am hesitant, as this could just
+increase the amount of clutter in the system. I'll revisit this in a couple of
+weeks to see if it's necessary.
+
 I was considering adding a `9to5` context, for tasks that can only be completed
-during working hours. I found that this was only really applicable to calls and
-errands, which are already covered, so adding this label would just create more
-clutter.
+during working hours, However, this was only applicable to calls and errands,
+both of which have a label, and this addition would just be clutter.
 
 ## Agendas
 
