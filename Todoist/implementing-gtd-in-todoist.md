@@ -135,14 +135,11 @@ label.
 - `Errands` - For tasks that require me to leave the house, this allows me to
   group errands together, and complete them all at once, to save time.
 
-I am considering adding a `Brainstorm` context, for tasks that require a lot of
-thought, but not much action. However, I am hesitant, as this could just
-increase the amount of clutter in the system. I'll revisit this in a couple of
-weeks to see if it's necessary.
+- `Brainstorm` - For tasks that require a lot of thought, and maybe a whiteboard
+  or a piece of paper. This is separate from the other contexts, as it requires a
+  different state of mind. Its good to review this list before going on a walk,
+  to give me things to think about.
 
-I was considering adding a `9to5` context, for tasks that can only be completed
-during working hours, However, this was only applicable to calls and errands,
-both of which have a label, and this addition would just be clutter.
 
 ## Agendas
 
