@@ -5,14 +5,14 @@ Harry Boyd - hboyd255@gmail.com - 20/03/2024
 The GTD methodology is a productivity system created by David Allen, and is
 described in his book
 [Getting Things Done](https://www.amazon.co.uk/Getting-Things-Done-Stress-Free-Productivity/dp/B01B6WSGGA).
-The system is based on the idea that a person's mind is for having ideas, not
-for holding them.
+The system is based on the idea that a person's mind is designed for having
+ideas, not holding them.
 
 The GTD system is platform-agnostic, and can be implemented using any tool that
 allows for it. I have chosen to implement this system in Todoist, and this
 document will describe how I have done so.
 
-Full credit to David Allen for the
+Full credit goes to David Allen for the
 [GTD methodology](https://gettingthingsdone.com/), and to the
 [Todoist](https://todoist.com/) team for creating a platform that allows for
 such a system to be implemented.
@@ -54,29 +54,27 @@ the appropriate project or list as soon as possible.
 For the most part, Todoist projects are used to represent GTD projects. A few
 Todoist projects are used to represent separate concepts, such as the following:
 
-- `Someday/Maybe` - A list of projects that are not currently active, but I want
-  to revisit in the future.
+- `Single Actions` - A project for tasks that are self-contained and only
+  require one step.
 
 - `Lists` - A collection of lists, stored as subprojects, such as recipes or
   books I would like to read. Items in lists should not be actionable tasks, and
   thus, should not be completable, this can be achieved by adding an asterisk to
   the start of the task's title.
 
-- `Single Actions` - A project for tasks that are self-contained and only
-  require one step.
+- `Someday/Maybe` - A list of projects that are not currently active, but I want
+  to revisit in the future.
 
 - `Quick Reads` - This is a list of articles or blog posts that will typically
   take less than 10 minutes to read. To populate this list, I will, in part, use
-  the "Email tasks to this project" feature. This is separate from the `Lists`
-  project, as these are actionable tasks, but is secluded from other lists, due
-  to the informality of this list. The reason for this informality, is because
-  I'm prioritizing ease of access, by bypassing the inbox system. All items in
-  this list should be treated as having the `Anywhere` context. This list should
-  be reviewed during the weekly review, and tasks should be moved to the
-  `Single Actions` project, if they have been hanging around for too long. This
-  list is a prototype, and if it becomes too cluttered, I will scrap it and go
-  back to the traditional method of adding articles to the inbox, then
-  processing them.
+  the "Email tasks to this project" feature. This list is different from the
+  other lists, as its items are actionable tasks, and thus should be
+  completable. All items in this list should be treated as having the `Anywhere`
+  context. This list should be reviewed during the weekly review, and tasks
+  should be moved to the `Single Actions` project if they have been hanging
+  around for too long. This list is a prototype, and if it becomes too
+  cluttered, I will scrap it and go back to the traditional method of adding
+  articles to the inbox, then processing them.
 
 - `Incubator` - A list of projects that are not currently active, but have been
   scheduled to be revisited at a later date. This is the same concept as the
@@ -84,41 +82,43 @@ Todoist projects are used to represent separate concepts, such as the following:
   have been scheduled for reevaluation.
 
 - `Waiting-For, External` - A list of tasks that I am waiting for someone else
-  to complete. Each task in this list should have a "Date Delegated" comment so
-  that I can track how long I have been waiting for a task to be completed.
+  to complete. Each task in this list should have a "Waiting Since" comment, in
+  the description, to track how long I have been waiting for a task to be
+  completed.
 
-- `Waiting-For, Internal` - A list of tasks that are almost actionable, but are
-  waiting for another task to be completed first. This list feels like a hack,
-  so I will reassess it during the weekly review, and consider implementing it
-  differently.
+- `Waiting-For, Internal` - The Waiting-For, Internal list should be used
+  sparingly. It is for projects, that cannot be started until another project
+  has been completed. It is not for single actions that are waiting for another
+  task of the same project to be completed, as these can just be left
+  unlabelled, and will be addressed during the weekly review. Every item in this
+  list should have a clear definition of what exiting projects need to be
+  completed before this project can be started.
 
 ## Projects of interest
 
 - `GTD Weekly Review` - A list of tasks that need to be completed during the
   weekly review. This kind of is a project, but I've chosen to separate it from
-  the other projects, due to its importance to this system.
+  the other projects, due to its importance to the system.
 
-- `Things to Buy` List, is a list of things I need to buy. The things on the
-  list may not need to be purchased immediately, especially when budgeting is
-  factored in. As part of the weekly review, I will review this list, and
-  consider adding items to the `Single Actions` project, as an `Errand` task.
+- `Things to Buy` - A list of things I want to buy. The things on the list may
+  not require purchasing immediately, especially when budgeting is factored in.
+  As part of the weekly review, I will review this list, and consider adding
+  items to the `Single Actions` project, as an `Errand` task.
 
 ## Use of Labels
 
-Labels are used to represent context and actionability.
-
-If a task is immediately actionable, and thus has a `next action`, it will be
-given a context label. If it cannot be completed, it is simply not given a
-label.
+Labels are used to represent context. If a task is immediately actionable, and
+thus has a `next action`, it will be given a context label. If it cannot be
+completed, it is simply not given a label.
 
 ### Context Labels:
 
 - `Home` - For tasks that can only be completed at home.
 
-- `Computer` For tasks that can only be completed on a computer. Previously,
-  this was split into `Computer` and `has_internet`, But I found that this just
-  created more clutter than was necessary. Plus, I'm trying to reduce my
-  reliance on my phone for non-communication-based tasks.
+- `Computer` - For tasks that can only be completed on a computer. Previously,
+  this was split into `Computer` and `has_internet`. However, I found that this
+  just created more clutter. Plus, I'm trying to reduce my reliance on my phone
+  for non-communication-based tasks.
 
 - `Anywhere` - For tasks that can be completed anywhere, most likely using my
   phone. This is based on the context that I'm using a cloud-based system, if I
@@ -132,35 +132,21 @@ label.
   switched off, so I would rather not be reminded of these tasks when I can't
   complete them.
 
-- `Errands` - For tasks that require me to leave the house, this allows me to
+- `Errands` - For tasks that require me to leave the house. This allows me to
   group errands together, and complete them all at once, to save time.
 
 - `Brainstorm` - For tasks that require a lot of thought, and maybe a whiteboard
-  or a piece of paper. This is separate from the other contexts, as it requires a
-  different state of mind. Its good to review this list before going on a walk,
-  to give me things to think about.
+  or a piece of paper. This is separate from the other contexts, as it requires
+  a different state of mind. It's good to review this list before going on a
+  walk, to give me things to think about.
 
+### Agenda Labels
 
-## Agendas
+Agendas refer to tasks that need to be discussed with others, preferably in
+person. To facilitate this, I have created multiple agenda labels, one for each
+person that I have tasks to discuss with. These labels can be created and
+deleted as needed.
 
-I'm still on the fence about how to implement the `Agendas` section, There are
-two ways I could do this:
-
-### Agendas as Labels
-
-In the Guide, for method 2, it suggests creating a single label titled
-`Agendas`, This would then be used to store tasks that need to be discussed with
-others. This, however, does not do anything to separate the tasks by person. I
-could address this by creating a label for each person, for example,
-`Agendas_Will`, but this would clutter up the labels section.
-
-### Agendas as Projects
-
-Alternatively, I could store a project titled `Agendas`, and then create a
-subproject for each person I need to discuss tasks with. This would allow me to
-separate the tasks by person. The downside to this is that it pulls the task out
-of the main project. This could lead to tasks being forgotten about, but it
-shouldn't be an issue if the weekly review is done correctly.
-
-For now, I'm going to go store Agendas as labels, but if it becomes too
-cluttered, I will switch to projects.
+The format of these labels are `Agenda_<First initial>.<Surname>`. For example,
+tasks that I need to discuss with my good friend William Betteridge, would be
+assigned the label `Agenda_W.Betteridge`.
